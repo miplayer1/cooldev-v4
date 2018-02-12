@@ -1,0 +1,331 @@
+/*---------------------------------------------------------------------
+	* @site   Cooldev.xyz
+	* @autors cooldev crew
+	* @media responsive
+	* @version 4.0
+	* @lastmodified Fev, 9 2018
+	
+	-------------------------------------------------------------------*/
+	
+	/*------------------------------------------------------------------
+					[Table of contents]
+					
+					1. COLORS
+					2. FONTS
+					3. HELPERS
+					4. GENERAL
+					5. TYPO generic
+					6. HEADER
+					7. NAV
+					8. SECTIONS / PAGES
+					9. SECTION 1
+					10. SECTION 2
+					11. SECTION 3
+					. CONTACT
+					. FOOTER
+					. MEDIA QUERIES
+-------------------------------------------------------------------*/
+	
+	
+	
+/*
+
+	 ***********************  
+    
+    ***   1. Colors     ***
+    
+    ***********************
+    
+    
+			couleur rose : #ffbbdbff
+			couleur bleu :#bde1deff
+			jaune :#FEE69D
+			couleur textes grey : #424242
+			
+*/
+/* 
+	***********************
+	
+	**      2.FONTS    **
+	
+	***********************
+
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Comfortaa', cursive;
+	*/
+/* 
+	***********************
+	
+	**      3.HELPERS    **
+	
+	***********************
+	*/
+
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.md-60 { font-size: 60px; }
+
+
+.no-padding-bottom {
+	padding-bottom: 0!important;
+}
+.no-margin-top {
+	margin-top:0!important;
+}
+.no-padding-top {
+	padding-top: 0!important;
+}
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+
+
+	
+/* 
+	***********************
+	
+	**     4.GENERAL     **
+	
+	***********************
+	*/
+	
+html {
+	color: #424242;
+}
+
+/* 
+	***********************
+	
+	**      5. TYPO      **
+	
+	***********************
+	*/
+h1{
+  font-size: 1.5rem;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900;
+}
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 1.6rem;
+}
+h3 {
+		font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 1.4rem;
+}
+p {
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.2rem;
+}
+
+/* 
+	***********************
+	
+	**     6.HEADER     **
+	
+	***********************
+	*/
+	
+header {
+
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background-image: url(../assets/img/fond-header.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.logo {
+	z-index: 2;	
+}
+
+.header-content {
+  margin: auto;
+  margin-top: 50px;
+  z-index: 2;
+}
+.header-content img{
+	width: 60%;
+}
+
+
+/* 
+	***********************
+	
+	**      7.NAV    **
+	
+	***********************
+	*/
+#sidenav-overlay {
+  z-index: 1;
+}
+
+
+/* 
+	***********************
+	
+	**     8.SECTIONS    **
+	
+	***********************
+	*/
+	
+#section1, #section2, #contact {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.donut {
+
+	min-height: 250px!important;
+	background-image: url(../assets/img/fond-donuts.svg);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+/* 
+	***********************
+	
+	**    9.SECTIONS 1   **
+	
+	***********************
+	*/
+	
+#section1 {
+	background-color: #ffbbdbff;
+
+}
+
+#section1 h2 {
+	font-size: 3rem;
+
+}
+
+
+
+/* 
+	***********************
+	
+	**   10.SECTION 2   **
+	
+	***********************
+	*/
+#section2 {
+	background-color: #bde1deff;
+}
+#section2 p {
+	font-size: 1rem;
+	margin-bottom: 70px;
+}
+/* 
+	***********************
+	
+	**    11.SECTION 3   **
+	
+	***********************
+	*/
+
+/**
+	
+	*
+	* FOOTER
+	*
+	*/
+	
+footer {
+	background-color:white!important;
+}
+footer p {
+	font-size: 1rem;
+}
+
+.social a {
+	padding: 5px;
+}
+
+
+/* 
+	***********************
+	
+	**13.MEDIA QUERIES<3 **
+	
+	***********************
+	*/
+
+@media all and (min-width: 601px){
+	header h1{
+		font-size: 1.5rem!important;
+	}
+	header h2{
+	font-size: 1.2rem;}
+	#section1 p {
+	font-size: 1rem;}
+	#section-contact p {
+	font-size: 1rem;	
+	}
+	.header-content img{
+	width: 25%;
+}
+	#section1 h2 {
+		font-size: 4rem;	
+	}
+	
+}
+@media all and (min-width: 801px){
+
+   #contact div input, #contact div textarea {
+    	font-size: 2rem;
+    	}
+  	header h1{
+		font-size: 4.5rem!important;
+  		}
+  	header h2{
+	font-size: 2rem;}
+	#section1 p {
+	font-size: 2.5rem;}
+	#section2 p {
+	font-size: 2.5rem;}
+	#section-contact p {
+	font-size: 2.5rem;	
+	}
+	#section1 h2 {
+		font-size: 4rem;	
+	}
+}
+
+@media all and (min-width: 1200px){
+	header h1{
+		font-size: 2rem!important;
+  	}
+  	
+	#section1 h2 {
+	font-size: 4.5rem;	
+	}
+	#section2 h3 {
+	font-size: 4rem;	
+	}
+	#section1 p {
+	font-size: 1.6rem;}
+	#section2 p {
+	font-size: 2rem;}
+	#section-contact p {
+	font-size: 3rem;	
+	}
+	header {
+	  background-size: 60%;	
+	}
+}
+
