@@ -190,10 +190,15 @@ padding-bottom: 50px;
 }
 .donut {
 
-	min-height: 250px!important;
+	/* min-height: 250px!important; */
+	height: 200px;
 	background-image: url(../assets/img/fond-donuts.svg);
-	background-position: center left;
+	background-position: center center;
 	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* 
@@ -206,6 +211,8 @@ padding-bottom: 50px;
 	
 #section1 {
 	background-color: #ffbbdbff;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 }
 

@@ -12,8 +12,10 @@
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no" />
     <meta name="google-site-verification" content="" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
- <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
@@ -32,23 +34,26 @@
 
   </head>
   <body >
-<!--<?php include('private/views/nav.php');?>
+<!-- <?php include('private/views/nav.php');?> -->
 <?php include('private/views/header.php');?>
 <?php include('private/views/section-cards.php');?>
 <?php include('private/views/section-text-color.php');?>
+
+<div id="pagepiling">
+	<div class="section"> section</div>
+	<div class="section">Some section</div>
+	<div class="section">Some section</div>
+	<div class="section">Some section</div>
+</div>
+
 <?php include('private/views/contact-form.php');?>
 <?php include('private/views/footer.php');?>
 
-
-
-
-
-
     <script
-			  src="https://code.jquery.com/jquery-3.2.1.min.js"
-			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-			  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js" ></script>
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     </script>
   </body>
