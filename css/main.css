@@ -184,13 +184,12 @@ header {
 	***********************
 	*/
 	
-#section1, #section2, #contact {
+#section1, #section2, #section3, #section4, #section5, #contact {
 padding-top: 50px;
 padding-bottom: 50px;
 }
-.donut {
 
-	/* min-height: 250px!important; */
+.donut {
 	height: 200px;
 	background-image: url(../assets/img/fond-donuts.svg);
 	background-position: center center;
@@ -213,12 +212,10 @@ padding-bottom: 50px;
 	background-color: #ffbbdbff;
 	padding-top: 20px;
 	padding-bottom: 20px;
-
 }
 
 #section1 h2 {
 	font-size: 3rem;
-
 }
 
 
@@ -244,6 +241,32 @@ padding-bottom: 50px;
 	
 	***********************
 	*/
+#section3 {
+	background-color: #ffbbdbff;
+}
+
+#section3.picto {
+	display: flex;
+	justify-content: center;
+}
+
+/* 
+	***********************
+	
+	**    12.SECTION 4   **
+	
+	***********************
+	*/
+
+/* 
+	***********************
+	
+	**    13.SECTION 5   **
+	
+	***********************
+	*/
+
+
 
 /**
 	

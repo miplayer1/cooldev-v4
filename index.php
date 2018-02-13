@@ -15,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css">
     <link rel="stylesheet" href="css/main.css" />
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
@@ -36,24 +35,20 @@
   <body >
 <!-- <?php include('private/views/nav.php');?> -->
 <?php include('private/views/header.php');?>
-<?php include('private/views/section-cards.php');?>
-<?php include('private/views/section-text-color.php');?>
-
-<div id="pagepiling">
-	<div class="section"> section</div>
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
-</div>
-
+<?php include('private/views/section1.php');?>
+<?php include('private/views/section2.php');?>
+<?php include('private/views/section3.php');?>
+<?php include('private/views/section4.php');?>
+<?php include('private/views/section5.php');?>
 <?php include('private/views/contact-form.php');?>
 <?php include('private/views/footer.php');?>
 
-    <script
+    <!-- <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+    crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="js/scrollMagic.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     </script>
   </body>
