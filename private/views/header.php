@@ -7,22 +7,18 @@
           <div class="col s12 ">
             <h1 class="center-align ">Développeur•se•s engagé•e•s</h1>
           </div>
-
-         <!-- <div class="col s12 social center-align">
-            <a href="https://www.facebook.com/#" target="_blank"><img class="responsive-img" src="assets/logo-fb.png" alt="Lien vers facebook"></a>
-            <a href="https://twitter.com/#" target="_blank"><img class="responsive-img" src="assets/logo-twitter.png" alt="Lien vers twitter"></a>
-          </div>-->
         </div>
       </div>
-      <div class="fixed-action-btn horizontal click-to-toggle">
-        <a id="menuButton" class="btn-floating btn-large red">
+      <div id="menuButton" class="fixed-action-btn click-to-toggle">
+        <a class="btn-floating btn-large red">
           <i class="material-icons">menu</i>
         </a>
-        <ul id="menuList">
-          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        <ul id="menuList" data-show = false>
+          <li><a class="btn-floating red" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></li>
+          <li><a class="btn-floating yellow darken-1" title="Téléphonez-nous"><i class="material-icons">phone</i></a></li>
+          <li><a class="btn-floating green" title="Suivez-nous sur Facebook"><i class="material-icons">sentiment_very_satisfied</i></a></li>
+          <li><a class="btn-floating blue" title="Suivez-nous sur Twitter"><i class="material-icons">sentiment_very_satisfied</i></a></li>
+          <li><a class="btn-floating pink" title="Haut de la page"><i class="material-icons">arrow_upward</i></a></li>
         </ul>
-      </div>
+      </div><!--MENU-->
     </header><!--HEADER-->

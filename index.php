@@ -33,7 +33,6 @@
 
   </head>
   <body >
-<!-- <?php include('private/views/nav.php');?> -->
 <?php include('private/views/header.php');?>
 <?php include('private/views/section1.php');?>
 <?php include('private/views/section2.php');?>
@@ -43,10 +42,6 @@
 <?php include('private/views/contact-form.php');?>
 <?php include('private/views/footer.php');?>
 
-    <!-- <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
     <script src="js/scrollMagic.js"></script>
     <script type="text/javascript" src="js/main.js"></script>

@@ -163,7 +163,6 @@ header {
 	width: 60%;
 }
 
-
 /* 
 	***********************
 	
@@ -197,6 +196,12 @@ padding-bottom: 50px;
 	background-size: contain;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+
+.donut div {
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
@@ -257,6 +262,9 @@ padding-bottom: 50px;
 	
 	***********************
 	*/
+#section4 {
+	background-color: #bde1deff;
+}
 
 /* 
 	***********************
