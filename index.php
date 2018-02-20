@@ -38,6 +38,7 @@
 <?php include('private/views/section2.php');?>
 <?php include('private/views/section3.php');?>
 <?php include('private/views/section4.php');?>
+<?php include('private/views/section-conversation.php');?>
 <?php include('private/views/section5.php');?>
 <?php include('private/views/contact-form.php');?>
 <?php include('private/views/footer.php');?>
