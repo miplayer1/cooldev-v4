@@ -16,7 +16,9 @@ var menuList = document.getElementById('menuList');
 var menuItems = document.querySelectorAll('#menuList li a.btn-floating');
 var showStatus = menuList.getAttribute("data-show");
 
-menuButton.addEventListener('click', function() {
+menuButton.addEventListener('click', showMenu)
+
+function showMenu() {
   if (showStatus === true) {
     showStatus = false;
     menuList.style.visibility = "hidden";
@@ -30,4 +32,4 @@ menuButton.addEventListener('click', function() {
       item.style.opacity = 1;
     })  
   }
-})
+}

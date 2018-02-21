@@ -163,6 +163,14 @@ header {
 	width: 60%;
 }
 
+.fixed-action-btn {
+	top: 23px;
+  }
+
+.fixed-action-btn ul {
+	top: 90px;
+  }
+
 /* 
 	***********************
 	
