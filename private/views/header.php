@@ -14,11 +14,11 @@
           <i class="material-icons">menu</i>
         </a>
         <ul id="menuList" data-show = false>
-          <li><a class="btn-floating red" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></li>
-          <li><a class="btn-floating yellow darken-1" title="Téléphonez-nous"><i class="material-icons">phone</i></a></li>
-          <li><a class="btn-floating green" title="Suivez-nous sur Facebook"><i class="material-icons">sentiment_very_satisfied</i></a></li>
-          <li><a class="btn-floating blue" title="Suivez-nous sur Twitter"><i class="material-icons">sentiment_very_satisfied</i></a></li>
-          <li><a class="btn-floating pink" title="Haut de la page"><i class="material-icons">arrow_upward</i></a></li>
+          <li><a data-link="emailLink" class="btn-floating red" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></li>
+          <li><a data-link="phoneLink" class="btn-floating yellow darken-1" title="Téléphonez-nous"><i class="material-icons">phone</i></a></li>
+          <li><a href="https://www.facebook.com/cooldevcrew/" class="btn-floating green" title="Suivez-nous sur Facebook"><i class="material-icons">sentiment_very_satisfied</i></a></li>
+          <li><a href="https://www.facebook.com/cooldevcrew/" class="btn-floating blue" title="Suivez-nous sur Twitter"><i class="material-icons">sentiment_very_satisfied</i></a></li>
+          <li><a href="#" class="btn-floating pink" title="Haut de la page"><i class="material-icons">arrow_upward</i></a></li>
         </ul>
       </div><!--MENU-->
     </header><!--HEADER-->

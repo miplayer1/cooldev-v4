@@ -33,3 +33,22 @@ function showMenu() {
     })  
   }
 }
+
+// fonction d'ajout des liens du menu au clic
+var targets = document.querySelectorAll('#menuList li a');
+
+var data = {
+  emailLink: "mailto:hello@cooldev.xyz",
+  phoneLink: "tel:+33660613909"
+}
+
+targets.forEach(function(item) {
+  item.addEventListener('click', function() {
+    var key = item.getAttribute('data-link');
+    if (!key == "") {
+      var link = data[key];
+      item.setAttribute('href', link);  
+    }
+  })
+})
+
