@@ -1,4 +1,4 @@
-<section id="section2">	
+<!-- <section id="section2">	
 	<div class="container">
 	 	<div class="row">
 			<div class="col s4"><img src="assets/img/gif2.gif" alt="Nous pensons que le web doit être accessible au plus grand monde"></div>
@@ -17,7 +17,7 @@
 			</div>
 			<div class="col s4"><img src="assets/img/gif-plant.gif" alt="Nous sélectionnons les technologies les plus efficientes pour votre projet"></div>
 			<!-- <div class="col s4"><img src="assets/img/gif-plant.gif" alt="Nous avons choisi d'implémenter une solution analytique respectueuse de la vie privée"></div> -->
-			<div class="col s8 center-align valeurs">
+			<!--<div class="col s8 center-align valeurs">
 				<h3>Vie privée</h3>
 				<p>
 				Elle compte pour nous, elle comptera de plus en plus pour vos visiteurs. Nous avons choisi d'implémenter une solution analytique respectueuse de la vie privée : Matomo. 
@@ -30,5 +30,5 @@
 				</p>
 			</div>
 		</div>
-	</div>
-</section><!--SECTION 2-->
+	</div>-->
+<!--</section><!--SECTION 2-->  -->

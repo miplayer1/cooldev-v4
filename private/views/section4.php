@@ -3,8 +3,8 @@
         <div class="row">
             <div class="donut col s12">
                 <div class="col s12 center-align">
-                    <h2>Histoires vraies</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid magnam cum, perspiciatis possimus alias voluptate rem placeat quisquam nostrum aliquam dolorum maxime distinctio sapiente, doloribus commodi? Dignissimos, veniam dolore.</p>
+                    <h2 class="white-text">Histoires vraies</h2>
+                    <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid magnam cum, perspiciatis possimus alias voluptate rem placeat quisquam nostrum aliquam dolorum maxime distinctio sapiente, doloribus commodi? Dignissimos, veniam dolore.</p>
                 </div>
             </div>
         </div>

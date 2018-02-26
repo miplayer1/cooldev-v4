@@ -1,9 +1,4 @@
 <section id="section5">
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-
-            </div>
-        </div>
+    <img src="assets/img/fond-us.svg" alt="">
     </div>
 </section><!--SECTION 5-->

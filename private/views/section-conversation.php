@@ -1,6 +1,6 @@
-<section class="no-margin-bottom no-margin-top" style="background-color: #418e88;">
+<section class="conversation no-margin-bottom no-margin-top" >
   <div id="conversation">
-    <h2 class="center-align">Qui sommes-nous ?</h2>
+    <h2 class="center-align white-text">Qui sommes-nous ?</h2>
     <div class="conversation from-me">
       <p>Hey there! What's up?</p>
     </div>
