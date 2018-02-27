@@ -295,7 +295,7 @@ padding-bottom: 50px;
 /* 
 	***********************
 	
-	**    9.SECTIONS 1   **
+	**    9.SECTIONS VALEURS   **
 	
 	***********************
 	*/
@@ -315,21 +315,71 @@ padding-bottom: 50px;
 /* 
 	***********************
 	yellow
-	**   10.SECTION 2   **
+	**   10.SECTION PROCESS   **
 	
 	***********************
 	*/
-#section2 {
-	background-color: #bde1deff;
-}
-#section2 p {
-	font-size: 1rem;
-	margin-bottom: 70px;
-}
-/* 
+	#process {
+		background-color: #bde1de;
+	}
+
+	#process ol {
+		list-style:none;
+	}
+
+	#process1 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+	}
+
+	#process2 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: -500px 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+
+	}
+
+	#process3 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: -1000px 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+	}
+
+	#process4 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: -1500px 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+	}
+
+	#process5 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: -2000px 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+	}
+
+	#process6 {
+		background-image: url('../assets/img/timeline-sprite.png');
+		background-position: -2500px 0;
+		background-repeat: no-repeat;
+		width: 500px;
+		height: 500px;
+	}
+
+	/* 
 	***********************
 	
-	**    11.SECTION 3   **
+	**    11.SECTION WORKS   **
 	
 	***********************
 	*/
@@ -345,7 +395,7 @@ padding-bottom: 50px;
 /* 
 	***********************
 	
-	**    12.SECTION 4   **
+	**    12.SECTION CONVERSATION   **
 	
 	***********************
 	*/
@@ -453,7 +503,7 @@ padding-bottom: 50px;
 /* 
 	***********************
 	
-	**    13.SECTION 5   **
+	**    13.SECTION US   **
 	
 	***********************
 	*/
