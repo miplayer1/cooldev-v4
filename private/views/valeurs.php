@@ -1,5 +1,5 @@
 <section class="valeurs container">
-	<h2 class="center-align padding-top padding-bottom">Ce qui compte pour nous</h2>
+	<h2 class="center-align padding-top-l padding-bottom-l">Ce qui compte pour nous</h2>
 	<div class="row padding-top padding-bottom">
 		<div class="col s12 m4 offset-m1 grey lighten-3 circle">
 			<img class="responsive-img padding" src="assets/img/gifs/responsive-2.gif">		
