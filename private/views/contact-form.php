@@ -11,28 +11,28 @@
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
-	          <input placeholder="John Doe" id="name" name="nom" type="text" class="validate" required aria-required="true">
+	          <input id="name" name="nom" type="text" class="validate" required aria-required="true">
 	          <label for="name">Votre nom</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">email</i>
-	          <input placeholder="john.doe@mail.com" id="email" name="email" type="email" class="validate" required aria-required="true">
+	          <input id="email" name="email" type="email" class="validate" required aria-required="true">
 	          <label for="email">Votre adresse mail</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">subject</i>
-	          <input placeholder="Objet de votre message" id="subject" name="objet" type="text" class="validate" required aria-required="true">
+	          <input id="subject" name="objet" type="text" class="validate" required aria-required="true">
 	          <label for="subject">Sujet</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">textsms</i>
-	          <textarea placeholder="Votre message" id="message" name="message" type="text" class="materialize-textarea" required aria-required="true"></textarea>
+	          <textarea id="message" name="message" type="text" class="materialize-textarea" required aria-required="true"></textarea>
 	          <label for="message">Votre message</label>
 	        </div>
 	      </div>

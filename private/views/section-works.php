@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             <div class="col s12 l4 offset-l4 center-align">
-                <a class="btn waves-effect waves-light cyan darken-3 pulse" href="/cooldev-v4/works.php" id="worksLink" >Nos réalisations
+                <a class="btn waves-effect waves-light cyan darken-3" href="/cooldev-v4/works.php" id="worksLink" >Nos réalisations
                     <i class="material-icons right">send</i>
                 </a>
             </div>

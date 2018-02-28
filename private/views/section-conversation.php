@@ -1,28 +1,28 @@
 <section class="conversation no-margin-bottom no-margin-top" >
   <div id="conversation">
-    <h2 class="center-align white-text">Qui sommes-nous ?</h2>
+    <h2 class="center-align grey-text">Qui sommes-nous ?</h2>
     <div class="conv from-me">
-      <p>Hey there! What's up?</p>
+      <p>Yo! Moi c'est Lionel ;)<br />Je suis développeur web.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
-      <p>Checking out iOS7 you know..</p>
+      <p>Coucou, moi c'est Mylène :)<br />Ce que j'aime c'est le graphisme et l'intégration.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-me">
-      <p>Check out this bubble!</p>
+      <p>On est complémentaires et on s'est dit que bosser ensemble ça serait cool.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
-      <p>It's pretty cool!</p>
+      <p>En plus on partage les mêmes valeurs et la même vision du web.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-me">
-      <p>Yeah it's pure CSS &amp; HTML</p>
+      <p>Du coup on a sauté le pas et on a créé Cooldev.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
-      <p>Wow that's impressive. But what's even more impressive is that this bubble is really high.</p>
+      <p>Rejoignez-nous :)</p>
     </div>
   </div>
 </section>
