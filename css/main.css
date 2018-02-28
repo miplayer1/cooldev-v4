@@ -88,16 +88,16 @@
 	margin-bottom: 0!important;
 }
 .padding-top {
-	padding-top: 50px!important;
+	padding-top: 30px!important;
 }
 .padding-bottom {
-	padding-bottom: 50px!important;
+	padding-bottom: 30px!important;
 }
 .margin {
-	margin: 10px 10px 10px 10px;
+	margin: 40px 40px 40px 40px;
 }
 .padding {
-	padding: 40px 40px 40px 40px;
+	padding: 20px 20px 20px 20px;
 }	
 .padding-top-l {
 	padding-top: 100px!important;
@@ -249,7 +249,7 @@ header {
 	***********************
 	*/
 	
-#section1, #section2, #section3, #section4, #conversation, #section5, #contact {
+#valeurs, #section2, #section3, #section4, #conversation, #section5, #contact {
 padding-top: 50px;
 padding-bottom: 50px;
 }
@@ -300,17 +300,6 @@ padding-bottom: 50px;
 	***********************
 	*/
 	
-#section1 {
-	background-color:white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-#section1 h2 {
-	font-size: 3rem;
-}
-
-
 
 /* 
 	***********************
@@ -331,49 +320,50 @@ padding-bottom: 50px;
 		background-image: url('../assets/img/timeline-sprite.png');
 		background-position: 0 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
+		margin:0 auto;
 	}
 
 	#process2 {
 		background-image: url('../assets/img/timeline-sprite.png');
-		background-position: -500px 0;
+		background-position: -200px 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
 
 	}
 
 	#process3 {
 		background-image: url('../assets/img/timeline-sprite.png');
-		background-position: -1000px 0;
+		background-position: -400px 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
 	}
 
 	#process4 {
 		background-image: url('../assets/img/timeline-sprite.png');
-		background-position: -1500px 0;
+		background-position: -600px 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
 	}
 
 	#process5 {
 		background-image: url('../assets/img/timeline-sprite.png');
-		background-position: -2000px 0;
+		background-position: -800px 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
 	}
 
 	#process6 {
 		background-image: url('../assets/img/timeline-sprite.png');
-		background-position: -2500px 0;
+		background-position: -1000px 0;
 		background-repeat: no-repeat;
-		width: 500px;
-		height: 500px;
+		width: 200px;
+		height: 200px;
 	}
 
 	/* 
@@ -578,6 +568,7 @@ footer p {
 	height: 150px;
 	
 }
+
 /* 
 	***********************
 	
@@ -645,6 +636,11 @@ footer p {
 	#section-contact p {
 	font-size: 3rem;	
 	}
-
+	.padding-top {
+	padding-top: 70px!important;
+}
+.padding-bottom {
+	padding-bottom: 70px!important;
+}
 }
 

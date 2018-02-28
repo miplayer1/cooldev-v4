@@ -12,5 +12,5 @@
       })
       .setPin("#pinContainer")
       .setTween(wipeAnimation)
-      .addIndicators() // add indicators (requires plugin)
+      //.addIndicators() // add indicators (requires plugin)
       .addTo(horizontalController);
