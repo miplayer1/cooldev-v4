@@ -4,7 +4,7 @@
             <div class="donut col s12">
                 <div class="col s12 center-align">
                     <h2 class="white-text">Histoires vraies</h2>
-                    <p class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquid magnam cum, perspiciatis possimus alias voluptate rem placeat quisquam nostrum aliquam dolorum maxime distinctio sapiente, doloribus commodi? Dignissimos, veniam dolore.</p>
+                    <p class="white-text">Il.Elle.s nous ont fait confiance et on les aime :)<br />Jettez un oeil et si notre approche vous plaît contactez-nous.</p>
                 </div>
             </div>
         </div>

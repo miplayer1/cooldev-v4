@@ -1,17 +1,33 @@
     var controller = new ScrollMagic.Controller();
     
-    // // define movement of panels
-    // var wipeAnimation = new TimelineMax()
-    //   .fromTo("section.panelTest.two", 1, {x: "100%", opacity: 0}, {x: "0%",opacity: 1, ease: Linear.easeNone})  // in from left
-    //   .fromTo("section.panelTest.three",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-    //   .fromTo("section.panelTest.four", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
-    // // create scene to pin and link animation
-    // new ScrollMagic.Scene({
-    //     triggerElement: "#pinContainer",
-    //     triggerHook: "onLeave",
-    //     duration: "300%"
-    //   })
-    //   .setPin("#pinContainer")
-    //   .setTween(wipeAnimation)
-    //   //.addIndicators() // add indicators (requires plugin)
-    //   .addTo(horizontalController);
+    var convItems = document.querySelectorAll('#conversation .conv');
+
+    var processItems = document.querySelectorAll('#process .process-img');
+
+    convItems.forEach(function(item) {
+        var tl = new TimelineMax();   
+        tl.fromTo(item, 1, {opacity: 0, left: -100}, {opacity: 1, left:0, ease: Linear.easeNone}, 0.5);
+        
+        new ScrollMagic.Scene({
+        triggerElement: item,
+        triggerHook: 0.7,
+        duration: 50,
+        reverse: false
+        })
+        .setTween(tl)
+        .addTo(controller);
+    })
+
+    processItems.forEach(function(item) {
+        var tl = new TimelineMax();   
+        tl.fromTo(item, 1, {left: 0}, {left: 20, ease: Linear.easeNone});
+        tl.to(item, 1, {left: 0, ease: Linear.easeNone});
+        
+        new ScrollMagic.Scene({
+        triggerElement: item,
+        triggerHook: 0.6,
+        duration: "10%"
+        })
+        .setTween(tl)
+        .addTo(controller);
+    })

@@ -32,7 +32,7 @@
           </div>
           <div class="footer-copyright ">
             <div class="container ">
-           <span class="">CC BY-NC-SA 4.0 - 2017 /</span> <a class="" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
+           <span class="">CC BY-NC-SA 4.0 - 2017 / </span> <a class="" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
             <a class="modal-trigger right " href="#modal1" >Mentions légales</a>
             <div id="modal1" class="modal modal-fixed-footer">
                 <div class="modal-content">

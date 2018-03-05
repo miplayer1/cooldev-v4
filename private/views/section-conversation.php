@@ -2,7 +2,7 @@
   <div id="conversation">
     <h2 class="center-align grey-text">Qui sommes-nous ?</h2>
     <div class="conv from-me">
-      <p>Yo! Moi c'est Lionel ;)<br />Je suis développeur web.</p>
+      <p>Salut! Moi c'est Lionel ;)<br />Je suis développeur web et un peu geek sur les bords ;)</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
@@ -10,7 +10,7 @@
     </div>
     <div class="clear"></div>
     <div class="conv from-me">
-      <p>On est complémentaires et on s'est dit que bosser ensemble ça serait cool.</p>
+      <p>On est complémentaires et on s'est dit que travailler ensemble ça coulait de source.</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
