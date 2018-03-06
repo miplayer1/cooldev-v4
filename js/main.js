@@ -1,6 +1,3 @@
-
-
-
 // Fonction d'activation du menu au click
 
 var menuButton = document.getElementById('menuButton');

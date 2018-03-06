@@ -22,7 +22,7 @@
 
     convItems.forEach(function(item) {
         var tl = new TimelineMax();   
-        tl.fromTo(item, 0.4, {opacity: 0, left: -100}, {opacity: 1, left:0, ease: Linear.easeNone});
+        tl.fromTo(item, 0.5, {opacity: 0}, {opacity: 1, ease: Linear.easeNone});
         
         new ScrollMagic.Scene({
         triggerElement: item,

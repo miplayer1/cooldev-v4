@@ -17,7 +17,7 @@
     <meta name="google-site-verification" content="rBRnpj5XSqUqYyI27OQ52hRYjk1PkW2Z1i3E9ces7oE" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa%7cRoboto" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -56,9 +56,9 @@
     <?php include('private/views/contact-form.php');?>
     <?php include('private/views/footer.php');?>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" ></script>
     <script src="js/scrollMagic.js"></script>
-    <script src="js/scrollMagic-anim.js"></script>
+    <script src="js/scrollMagic-anim.js" ></script>
     <script src="js/main.js"></script>
     </script>
   </body>
