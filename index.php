@@ -57,7 +57,9 @@
     <?php include('private/views/footer.php');?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" ></script>
-    <script src="js/scrollMagic.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> --> <!-- CDN ScrollMagic -->
+    <!-- <script src="js/ScrollMagic.min.js"></script> --> <!-- version locale minifiee d'origine ScrollMagic -->
+    <script src="js/scrollMagic.js"></script> <!-- version locale non minifiee d'origine ScrollMagic -->
     <script src="js/scrollMagic-anim.js" ></script>
     <script src="js/main.js"></script>
     </script>

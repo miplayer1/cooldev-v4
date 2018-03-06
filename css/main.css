@@ -166,8 +166,7 @@ header {
   background-size: 100%, cover;
   background-repeat: no-repeat, repeat;
   background-attachment: scroll, fixed;
-  
-
+  overflow: hidden;
 }
 
 .header-page {
