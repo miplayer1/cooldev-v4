@@ -37,7 +37,7 @@
 	        </div>
 	      </div>
 	      <div class="row">
-	        <div class="col s12 center-align">
+	        <div class="col s12 center-align padding-bottom">
 	          <button class="btn waves-effect waves-light cyan darken-3" id="submit" type="submit" name="submit">Envoyer
 	            <i class="material-icons right">send</i>
 	          </button>

@@ -1,9 +1,12 @@
-<footer class="page-footer grey no-padding-top">
-<div class="divider-white"></div>
-          <div class="container  ">
-            <div class="row ">
+<footer class="page-footer brown lighten-1 margin-top">
+<div class="divider-container ">
+<div class="divider-circle brown lighten-1 "></div>
+</div>
+ <div class="container  ">
+
+            <div class="row white-text ">
                <div class=" col m4 s12 center-align">
-                <h5 class="center-align ">Contacts</h5>
+                <h5 class="center-align ">Partenaires</h5>
                 <div class="separator col s2 offset-s5 divider"></div>
                 <div class="col s12  center-align">
                	 <p class="center-align grey-text text-lighten-4">contact@mail.com</p>
@@ -12,12 +15,11 @@
                	<p class="center-align">Phone number</p>
                 </div>
               </div>
-              <div class="center-align social col m4  s12">
-               <h5 class="">Réseaux sociaux </h5>
+              <div class="center-align social col m4  s12 padding-top">
 
-               <div class="separator col s2 offset-s5 divider"></div>
                 <div class="col  s12 center-align">
-                 <a href="https://www.facebook.com/#" target="_blank" ><img src="assets/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
+                 <a href="https://www.facebook.com/#" target="_blank" ><img src="assets/img/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
+                 <a href="https://www.facebook.com/#" target="_blank" ><img src="assets/img/logo-twitter.png" alt="Suivez-nous sur Facebook"></a>
 
                 </div>
               </div>

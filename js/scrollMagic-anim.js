@@ -7,19 +7,19 @@ var processItems = document.querySelectorAll('#process li');
 var headerContainer = document.querySelectorAll('header');
 
 // animation header
-var tlHeader = new TimelineMax();
+//var tlHeader = new TimelineMax();
 
-tlHeader.to(headerContainer, 1, {height: 0, ease: Linear.easeNone});
+//tlHeader.to(headerContainer, 1, {height: 0, ease: Linear.easeNone});
 
-var hideHeader = new ScrollMagic.Scene({
-    triggerElement: headerContainer,
-    triggerHook: 0,
-    duration: "10%",
-    reverse: true
-})
-.setTween(tlHeader)
-.addIndicators()
-.addTo(controller)
+//var hideHeader = new ScrollMagic.Scene({
+//    triggerElement: headerContainer,
+//    triggerHook: 0,
+//    duration: "10%",
+//    reverse: true
+//})
+//.setTween(tlHeader)
+//.addIndicators()
+//.addTo(controller)
 
 // animation process
 processItems.forEach(function(item) {
