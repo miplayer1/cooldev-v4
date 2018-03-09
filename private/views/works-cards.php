@@ -1,13 +1,13 @@
-<div class="container">
+<section id="page-works" class="purple lighten-5">
+<div class="container no-margin-top">
 <div class="row">
-	<h2 class="center-align padding-top-l padding-bottom-l">Ils nous ont fait confiance</h2>
 	<div class="row padding-top padding-bottom">
 		<div class="col s12 m4 offset-m1  ">
 			<img class="responsive-img " src="assets/img/works/medilab.png">		
 		</div>				
 		<div class="col s12 m6 offset-m1">
-			<h3 class="padding-bottom">Medilab</h3>
-			<p>___</p>
+			<h3 class="deep-purple-text text-darken-4">Medilab</h3>
+			<div class="underlign"></div>
 <p>Conception et réalisation d'un site vitrine sur-mesure, rédaction du contenu français/anglais</p>
 		<a href="http://www.medilab.one" target="_blank"><i class="material-icons">&#xE89E;</i></a>   
 		</div>	
@@ -87,4 +87,6 @@
 		</div><!--take-->
 
        </div>
+       <h2 class="deep-purple-text text-darken-4 center-align padding-top padding-bottom no-margin-top">Ils nous ont fait confiance, pourquoi pas vous ?</h2>
  </div>
+ </section>
