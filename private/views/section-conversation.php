@@ -1,6 +1,6 @@
-<section class="conversation no-margin-bottom no-margin-top" >
+<section class="conversation no-margin-bottom no-margin-top purple lighten-5" >
   <div id="conversation">
-    <h2 class="center-align grey-text">Qui sommes-nous ?</h2>
+    <h2 class="center-align deep-purple-text text-darken-4 padding-top padding-bottom">Le collectif</h2>
     <div class="conv from-me">
       <p>Salut! Moi c'est Lionel ;)<br />Je suis développeur web et un peu geek sur les bords ;)</p>
     </div>

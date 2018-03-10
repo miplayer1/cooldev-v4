@@ -1,13 +1,10 @@
-<section id="contact" class="scrollspy">
+<section id="contact" class="scrollspy amber lighten-5">
 	<div class="container">
 	 <div class="row">
 	    <div class="col s12">
-	      <h2 class="dark-green center-align">Contactez-nous !</h2>	      
+	      <h2 class="dark-green center-align deep-purple-text text-darken-4 padding-top padding-bottom">Contactez-nous !</h2>	      
 	     </div>
-	     <div class="separator col s2 offset-s5 divider"></div>
-	 
-	    <form class="col s12" action="#contact" method="POST">
-	
+		    <form class="col s12" action="#contact" method="POST">	
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
@@ -38,7 +35,7 @@
 	      </div>
 	      <div class="row">
 	        <div class="col s12 center-align padding-bottom">
-	          <button class="btn waves-effect waves-light cyan darken-3" id="submit" type="submit" name="submit">Envoyer
+	          <button class="btn waves-effect waves-light cyan accent-3 deep-purple-text text-darken-4" id="submit" type="submit" name="submit">Envoyer
 	            <i class="material-icons right">send</i>
 	          </button>
 	        </div>

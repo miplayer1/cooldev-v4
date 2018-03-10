@@ -3,33 +3,40 @@
 <div class="divider-circle brown lighten-1 "></div>
 </div>
  <div class="container  ">
-
-            <div class="row white-text ">
-               <div class=" col m4 s12 center-align">
-                <h5 class="center-align ">Partenaires</h5>
-                <div class="separator col s2 offset-s5 divider"></div>
-                <div class="col s12  center-align">
-               	 <p class="center-align grey-text text-lighten-4">contact@mail.com</p>
-                </div>
-                <div class="col s12 m12 center-align ">
-               	<p class="center-align">Phone number</p>
-                </div>
-              </div>
-              <div class="center-align social col m4  s12 padding-top">
-
-                <div class="col  s12 center-align">
-                 <a href="https://www.facebook.com/#" target="_blank" ><img src="assets/img/logo-fb.png" alt="Suivez-nous sur Facebook"></a>
-                 <a href="https://www.facebook.com/#" target="_blank" ><img src="assets/img/logo-twitter.png" alt="Suivez-nous sur Facebook"></a>
-
+ 	<div class="row no-margin-top no-padding-top">
+	<div class="col s12 l8 offset-l2 ">
+            <h1 class="center-align white-text">Développeur<span class="median-dot">&#183;</span>se<span class="median-dot">&#183;</span>s engagé<span class="median-dot">&#183;</span>e<span class="median-dot">&#183;</span>s</h1>
+            <p class="white-text center-align">Pour un web accessible,<br>respectueux des gens<br>et de la planète</p>
+          </div> 	
+ 	</div>
+            <div class="row white-text center-align">    
+              <div class="center-align social col s12 m4 push-m4 center-align ">
+                <div class="col  s6 ">
+                 <a class="center-align" href="https://www.facebook.com/#" target="_blank" title="Suivez-nous sur Facebook" ><div id="facebook" class="reseau-img right"></div></a>
+                 </div>
+                 <div class="col s6 "> 
+                 <a class="center-align" href="https://www.facebook.com/#" target="_blank" title="Suivez-nous sur Twitter" ><div id="twitter" class="reseau-img left"></div></a>
                 </div>
               </div>
-              <div class="center-align col m4 s12">
-                <h5 class="">Adresse</h5>
-                <div class="separator col s2 offset-s5 divider"></div>
-               <div class="col s12"><p class="">Rue<br>Ville</p></div>
+              <div class="col s12 m4 push-m4">
+                <h2 class="">Le collectif Cooldev</h2>
+                	<ul>
+                   <li><a href="">L'équipe</a></li>
+                   <li><a href="">Portfolio</a></li>
+                   <li><a href="">Contact</a></li>
+                  </ul>
+               </div>
+	           <div class="col  s12 m4 pull-m8 ">
+                <h2 class="">Nos partenaires et amis</h2>
+                <ul>
+						<li><a href="" target="_blank">Ma petite agence web</a></li>                
+						<li><a href="" target="_blank">LAB4Makers</a></li>                
+						<li><a href="" target="_blank">FERRY BOAT Atelier</a></li>                
+	               
+                </ul> 
+              </div>              
 
-               </div><!--CONTACT MAIL-->
-
+				
             </div>
           </div>
           <div class="footer-copyright ">
