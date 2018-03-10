@@ -1,11 +1,30 @@
 // création de l'instance du controller
 var controller = new ScrollMagic.Controller();
+// // define movement of panels
+     var wipeAnimation = new TimelineMax()
+       .fromTo("section.panelWorks.two", 1, {x: "100%", opacity: 0}, {x: "0%",opacity: 1, ease: Linear.easeNone})  // in from left
+    	 .fromTo("section.panelWorks.three",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+       .fromTo("section.panelWorks.four", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.five", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.six", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.seven", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
 
+    // // create scene to pin and link animation
+     new ScrollMagic.Scene({
+        triggerElement: "#pinContainer",
+        triggerHook: "onLeave",
+        duration: "300%"
+       })
+      .setPin("#pinContainer")
+      .setTween(wipeAnimation)
+    	//.addIndicators() // add indicators (requires plugin)
+  		.addTo(controller);
+  
 // définition des variables cibles pour les animations
 var convItems = document.querySelectorAll('#conversation .conv');
 var processItems = document.querySelectorAll('#process li');
 var headerContainer = document.querySelectorAll('header');
-
+ 
 // animation header
 //var tlHeader = new TimelineMax();
 

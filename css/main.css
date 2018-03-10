@@ -116,6 +116,7 @@
 html {
 	color: #424242;
 }
+html,body {margin:0;padding:0}
 
 /* 
 	***********************
@@ -555,7 +556,7 @@ footer p {
 	height: 100vh;
 	overflow: hidden;
 }
-.panelTest {
+.panelWorks {
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -563,26 +564,26 @@ footer p {
 
 }
 
-.panelTest.one {
+.panelWorks.one {
 	background-color: #FEE69D;
 
 }
 
-.panelTest.two  {
+.panelWorks.two  {
 	background-color: #ffbbdb;
 
 }
-.panelTest.three {
+.panelWorks.three {
 	background-color: #bde1de;
 }
-.panelTest.four {
+.panelWorks.four {
 	background-color: #FEE69D;
 }
-.panelTest h3 {
+.panelWorks h3 {
 	font-size: 3rem;
 }
 
-.panelTest p {
+.panelWorks p {
 	font-size: 2rem;
 }
 
