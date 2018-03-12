@@ -2,11 +2,17 @@
 var controller = new ScrollMagic.Controller();
 // // define movement of panels
      var wipeAnimation = new TimelineMax()
-       .fromTo("section.panelWorks.two", 1, {x: "100%", opacity: 0}, {x: "0%",opacity: 1, ease: Linear.easeNone})  // in from left
-    	 .fromTo("section.panelWorks.three",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-       .fromTo("section.panelWorks.four", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+  //   	.fromTo("section.panelWorks.one", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
+       .fromTo("section.panelWorks.two", 2, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+    //   .fromTo("section.panelWorks.two", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
+       .fromTo("section.panelWorks.three", 2, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+    //   .fromTo("section.panelWorks.three", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
+       .fromTo("section.panelWorks.four", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+    //   .fromTo("section.panelWorks.four", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
        .fromTo("section.panelWorks.five", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
-       .fromTo("section.panelWorks.six", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+   //    .fromTo("section.panelWorks.five", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
+       .fromTo("section.panelWorks.six", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+     //  .fromTo("section.panelWorks.six", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
        .fromTo("section.panelWorks.seven", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
 
     // // create scene to pin and link animation

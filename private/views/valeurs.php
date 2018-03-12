@@ -5,10 +5,10 @@
 			<h2 class="  deep-purple-text text-darken-4 ">Ce qui compte pour nous</h2>		
 			
 		</div>	
-	</div><!--TITLE--> -->
+	</div><!--TITLE--> 
 	<div class="row padding-top padding-bottom margin-top">
 		<div class="col s12 m4 push-m7 ">
-			<h3 class="deep-purple-text text-darken-4 ">Usabilité</h3>
+			<h2 class="deep-purple-text text-darken-4 ">Usabilité</h2>
 			<div class="underlign"></div>
 			<p>Nous travaillons sur l'accessibilité, l'optimisation et l'expérience utilisateur.rice pour créer des sites web répondant à vos besoins et ceux de vos visiteur.euse.s<br />
 			L'information doit être claire, disponible rapidement et sur tous les supports.
@@ -26,7 +26,7 @@
 	</div><!--usabilite-->
 	<div class="row padding-top padding-bottom">
 		<div class="col s12 m4 offset-m1">
-			<h3 class="deep-purple-text text-darken-4">Frugalité / éco-conception</h3>
+			<h2 class="deep-purple-text text-darken-4">Frugalité / éco-conception</h2>
 			<div class="underlign"></div>
 			<p>Nous sélectionnons pour votre projet les technologies les plus efficientes et les plus adaptées.<br />Du site one-page au site plus complexe en passant par du Wordpress que vous gérez vous-même, l'objectif est le même : limiter le besoin en ressources et pour atteindre vos objectifs. </p>
 			<!-- <p>Nous sélectionnons les technologies les plus efficientes pour votre projet.
@@ -39,7 +39,7 @@
 	</div><!--frugalite-->
 	<div class="row padding-top padding-bottom">
 		<div class="col s12 m4 push-m7 ">
-			<h3 class="deep-purple-text text-darken-4">Vie privée</h3>
+			<h2 class="deep-purple-text text-darken-4">Vie privée</h2>
 			<div class="underlign"></div>
 			<p>Elle compte pour nous, elle comptera de plus en plus pour
 			 vos visiteur.euse.s. Nous avons choisi de mettre en place une solution 
@@ -52,7 +52,7 @@
 	</div><!--VIE PRIVée-->
 	<div class="row padding-top padding-bottom">
 		<div class="col s12 m4 offset-m1">
-			<h3 class="deep-purple-text text-darken-4">Implication sociétale</h3>
+			<h2 class="deep-purple-text text-darken-4">Implication sociétale</h2>
 			<div class="underlign"></div>
 			<p>Nous nous engageons pour un numérique inclusif 
 			par la sensibilisation à la programmation informatique et l'accès 
@@ -65,7 +65,7 @@
 	</div><!--SOCIETAL-->
 	<div class="row">
 		<div class="col s12">
-			<h2 class="center-align deep-purple-text text-darken-4 ">Tout ça, c'est ce qui compte pour nous</h2>		
+			<h3 class="center-align deep-purple-text text-darken-4 ">Tout ça, c'est ce qui compte pour nous</h3>		
 			
 		</div>	
 	</div><!--TITLE-->

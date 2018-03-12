@@ -2,8 +2,16 @@
 	<div class="container">
 	 <div class="row">
 	    <div class="col s12">
-	      <h2 class="dark-green center-align deep-purple-text text-darken-4 padding-top padding-bottom">Contactez-nous !</h2>	      
-	     </div>
+	      <h2 class="dark-green center-align deep-purple-text text-darken-4 padding-top h2-title">Contact</h2>
+	      	      <p class="flow-text dark-green center-align deep-purple-text text-darken-4">Pour avoir des infos complémentaires, obtenir un devis, nous faire un coucou...</p>	      
+	      	     </div>	      
+<div class="col s12 center-align padding-bottom">
+          <span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
+			          <span class="hide-on-small-only" id="phone-btn"><div id="phone-contact"><img src="assets/img/phone.png" alt=""></div><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
+			     			<span><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
+	   </div>  
+
+	
 		    <form class="col s12" action="#contact" method="POST">	
 	      <div class="row">
 	        <div class="input-field col s12">

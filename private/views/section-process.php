@@ -1,5 +1,5 @@
 <section id="process">
-    <h2 class="center-align padding-bottom padding-top deep-purple-text text-darken-4">La recette Cooldev</h2>
+    <h2 class="center-align padding-bottom padding-top deep-purple-text text-darken-4 h2-title">La recette Cooldev</h2>
         <ol class="container no-margin-bottom center-align">
         	<div class="row">
             <li class="col s12 m4 ">
@@ -43,5 +43,5 @@
             </li>
             </div>
         </ol>
-        <h2 class="center-align deep-purple-text text-darken-4">Simple, non ?</h2>
+        <h3 class="center-align deep-purple-text text-darken-4">Simple, non ?</h3>
 </section>

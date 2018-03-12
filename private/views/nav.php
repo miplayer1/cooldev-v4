@@ -10,3 +10,8 @@
           <li><a href="https://twitter.com/cooldev_crew" target="_blank"  class="btn-floating blue" title="Suivez-nous sur Twitter"><img src="assets/img/logo-twitter.png" alt="twitter"></a></li>
 			</ul>
       	</div><!--MENU-->
+      	<div id="homeButton" class="">
+      		        <a href="index.php " class="btn-floating brown">
+	          <img class="center" src="assets/img/icone-donuts.png" alt="Home">
+	        </a>
+      	</div>
