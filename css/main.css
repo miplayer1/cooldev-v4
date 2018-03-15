@@ -14,6 +14,7 @@
 					2. FONTS
 					3. HELPERS
 					4. GENERAL
+						4.1.SCROLL Icon
 					5. TYPO generic
 					6. HEADER
 					7. NAV
@@ -116,7 +117,76 @@
 html {
 	color: #424242;
 }
-html,body {margin:0;padding:0}
+/* 
+	***************************
+	
+	**     4.1 scroll icon   **
+	
+	credits :
+	https://twitter.com/Shak_Dizzle
+	http://instagram.com/shak_dizzle
+	http://dribbble.com/shakdaniel
+	Thanks !
+	***************************
+	*/
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 90%;
+  margin-top: -35px;
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+  border-radius: 25px;
+}
+.icon-scroll-b {
+	  -webkit-box-shadow: inset 0 0 0 1px grey;
+  box-shadow: inset 0 0 0 1px grey!important;
+}
+.icon-scroll-b:before {
+	background: grey!important;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+
 
 /* 
 	***********************
@@ -131,9 +201,9 @@ h1{
 /**  font-weight: 900;**/
 }
 h2 {
-		font-weight: 900;
-	font-size: 3rem;
-  font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 2.5rem;
+	font-family: 'Roboto', sans-serif;
 }
 h3 {
 	font-size: 1.5rem;
@@ -243,9 +313,9 @@ header {
 }
 #phone-contact {
 	opacity: 0;
-	position: relative;
-	top:50px;
-	right: 170px;
+	position: absolute;
+	top:5px;
+	right: 100%;
 }
 #phone-btn:hover #phone {
 		opacity: 1;
@@ -254,12 +324,18 @@ header {
 #phone-btn:hover #phone-contact {
 		opacity: 1;
 		
+		
 }
 #homeButton {
 	right: 23px;
 	bottom: 10px;
 	position: fixed;
 	z-index: 999;
+}
+.info-button:hover:before {
+	content:url(../assets/img/phone.png);
+	opacity: 1;
+
 }
 /* 
 	***********************
@@ -577,8 +653,12 @@ footer a {
 footer p {
 	font-size: 1rem;
 }
-.reseau-img {
-			margin: 0 auto;
+.social-img img {
+	padding-top:9px;
+
+}
+/* .reseau-img {
+		margin: 0 auto;
 		background-repeat: no-repeat;
 		width: 100px;
 		height: 100px;
@@ -594,7 +674,7 @@ footer p {
 		background-image: url('../assets/img/sprite-reseaux.png');
 		background-position: -100px 0;
 
-}
+} */
 /* 
 	***********************
 	
@@ -697,10 +777,10 @@ margin: 0 auto;
 	font-size: 1rem;	
 	}
 
-.h2-title {
+	.h2-title {
 	font-size: 2.5rem;
 }
-		#process p {
+	#process p {
 		font-size: 1.5rem;	
 	}	
 	#works p {
@@ -709,8 +789,8 @@ margin: 0 auto;
 #contact p {
 	font-size: 1.5rem;
 }	
-h3 {
-	font-size: 2.5rem;
+h2 {
+	font-size: 3rem;
 }
 }
 @media all and (min-width: 801px){
@@ -723,32 +803,18 @@ h3 {
   		}
   	header h2{
 	font-size: 2rem;}
-	#section1 p {
-	font-size: 2.5rem;}
-	#section2 p {
-	font-size: 2.5rem;}
+
 	#section-contact p {
 	font-size: 2.5rem;	
 	}
-	#section1 h2 {
-		font-size: 4rem;	
-	}
+
 }
 
 @media all and (min-width: 1200px){
 	header h1{
 		font-size: 1.7rem!important;
   	}
-	#section1 h2 {
-	font-size: 4.5rem;	
-	}
-	#section2 h3 {
-	font-size: 4rem;	
-	}
-	#section1 p {
-	font-size: 1.6rem;}
-	#section2 p {
-	font-size: 2rem;}
+
 	#section-contact p {
 	font-size: 3rem;	
 	}

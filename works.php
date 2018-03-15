@@ -11,7 +11,7 @@
     <![endif]-->
     <meta name="keywords" content="developpement web, création de sites web, accessibilité web, UX, green it, usabilité, conception de sites web Marseille" />
     <meta name="publisher" content="cooldev">
-    <meta name="description" content="Pour un web accessible, respectueux des gens et de la planète" />
+    <meta name="description" content="Réalisations Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s" />
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta name="google-site-verification" content="rBRnpj5XSqUqYyI27OQ52hRYjk1PkW2Z1i3E9ces7oE" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
@@ -22,10 +22,10 @@
     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
 <!-- Open Graph Meta Tags -->
 <!-- FACEBOOK -->
-	<meta property="og:title" content="Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s" />
+	<meta property="og:title" content="Portfolio" />
 	<meta property="og:site_name" content="Cooldev">
-	<meta property="og:url" content="http://www.cooldev.xyz/" />
-	<meta property="og:description" content="Pour un web accessible, respectueux des gens et de la planète" />
+	<meta property="og:url" content="http://www.cooldev.xyz/works.php" />
+	<meta property="og:description" content="Réalisations Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s" />
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content="http://www.cooldev.xyz/assets/img/og-img.png" />
 <!-- TWITTER -->
@@ -33,9 +33,9 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="og:locale" content="fr_FR">
 	<meta name="og:site_name" content="Cooldev">
-	<meta property="og:title" content="Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s">
-	<meta property="og:url" content="http://www.cooldev.xyz/">
-	<meta property="og:description" content="Pour un web accessible, respectueux des gens et de la planète" />
+	<meta property="og:title" content="Portfolio">
+	<meta property="og:url" content="http://www.cooldev.xyz/works.php">
+	<meta property="og:description" content="Réalisations Cooldev, collectif de développeur&#183;se&#183;s engagé&#183;e&#183;s" />
 	<meta property="og:image" content="http://www.cooldev.xyz/assets/img/og-img.png" />
 
 <!-- Piwik -->
@@ -44,7 +44,6 @@
 </head>
 <body>
 <?php include('private/views/nav.php');?>
-<!--<?php include('private/views/header-page.php');?>-->
 <?php include('private/views/works-cards.php');?>
 <?php include('private/views/contact-form.php');?>
 <?php include('private/views/footer.php');?>
@@ -55,5 +54,5 @@
     <script src="js/scrollMagic.js"></script> <!-- version locale non minifiee d'origine ScrollMagic -->
     <script src="js/scrollMagic-anim.js" ></script>
     <script src="js/main.js"></script>
-
+    
 </body>

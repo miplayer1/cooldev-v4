@@ -11,7 +11,8 @@
 		<p>Conception et réalisation d'un site vitrine sur-mesure, rédaction du contenu français/anglais</p>
 		<a href="http://www.medilab.one" target="_blank"><i class="deep-purple-text text-darken-4 material-icons">&#xE89E;</i></a>   
 		</div>	
-	</div>	
+	</div>
+	<div class="icon-scroll icon-scroll-b"></div>	
 	</div>
 </section><!--medilab-->
 
@@ -113,7 +114,7 @@
 		</div>
 		</div>
 	</div>
-	      <h3 class="deep-purple-text text-darken-4 center-align padding-top no-margin-bottom padding-bottom no-margin-top">Aller, viens ! On a des donuts...</h3> 
+	      <h3 class="deep-purple-text text-darken-4 center-align padding-top no-margin-bottom padding-bottom no-margin-top">Allez, viens ! On a des donuts...</h3> 
 </section><!--take-->
 
 
