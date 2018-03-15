@@ -332,10 +332,9 @@ header {
 	position: fixed;
 	z-index: 999;
 }
-.info-button:hover:before {
-	content:url(../assets/img/phone.png);
-	opacity: 1;
-
+.info-button {
+	position: relative;
+	padding-top:15px!important;
 }
 /* 
 	***********************

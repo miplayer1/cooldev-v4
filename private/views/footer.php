@@ -33,7 +33,7 @@
               <div class="col s12 m4 "> 
                 <h2 class="">Contact</h2>
                   <div class="underlign"></div>
-                    <div class="col s12 " style="padding-top:20px;position:relative;">
+                    <div class="col s12 info-button" >
                         <span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
 			                  <span class="hide-on-small-only" id="phone-btn">
                           <span id="phone-contact"   >

@@ -1,19 +1,23 @@
 // création de l'instance du controller
 var controller = new ScrollMagic.Controller();
-// // define movement of panels
-     var wipeAnimation = new TimelineMax()
+
+var page = window.location.href;
+
+if (page === "http://localhost/cooldev-v4/works.php") {
+  // // define movement of panels
+  var wipeAnimation = new TimelineMax()
   //   	.fromTo("section.panelWorks.one", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.two", 2, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+       .fromTo("section.panelWorks.two", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
     //   .fromTo("section.panelWorks.two", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.three", 2, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+       .fromTo("section.panelWorks.three", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
     //   .fromTo("section.panelWorks.three", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.four", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.four", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
     //   .fromTo("section.panelWorks.four", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.five", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.five", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
    //    .fromTo("section.panelWorks.five", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.six", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
+       .fromTo("section.panelWorks.six", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
      //  .fromTo("section.panelWorks.six", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.seven", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
+       .fromTo("section.panelWorks.seven", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
 
     // // create scene to pin and link animation
      new ScrollMagic.Scene({
@@ -25,6 +29,10 @@ var controller = new ScrollMagic.Controller();
       .setTween(wipeAnimation)
     	//.addIndicators() // add indicators (requires plugin)
   		.addTo(controller);
+
+}
+
+
   
 // définition des variables cibles pour les animations
 var convItems = document.querySelectorAll('#conversation .conv');
