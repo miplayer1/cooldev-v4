@@ -41,12 +41,3 @@ targets.forEach(function(item) {
   })
 })
 
-// test d'identification des pages
-// var page = window.location.href;
-
-// if (page === "http://localhost/cooldev-v4/" || page === "http://localhost/cooldev-v4/index.php") {
-//   console.log("Accueil");
-// } else {
-//   console.log("Works");
-// }
-

@@ -43,26 +43,26 @@
 </head>
 <body>
 <?php include('private/views/nav.php');?>
-<section class="ml cyan lighten-4">
-	<div class="container">
-		<h1 class="deep-purple-text text-darken-4 no-margin-top padding-top">Mentions Légales</h1>
-		<div class="underlign-r"></div>
-		<h2 class="deep-purple-text text-darken-4 h2-title">SIRET</h2>
-		<p>Sous CAPE Cosens SIRET 419 369 798 00048</p>
-		<p>2, rue de Rome</p>
-		<p>13001 Marseille</p>
-		<h2 class="deep-purple-text text-darken-4 h2-title">Hébergement :</h2>
-		<p>GANDI SAS, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 . </p>
-		<h2 class="h2-title deep-purple-text text-darken-4">Co-responsables de la publication :</h2>
-		<p>Lionel Lafont</p>
-		<p>Mylène Hiezely</p>
-		<h2 class="h2-title deep-purple-text text-darken-4">Gestion des données personnelles :</h2>
-		<p>Votre vie privée est très importante pour nous. Pour connaître le trafic sur ce site internet, Nous utilisons Matomo. Matomo est une solution d’analytics qui respecte votre vie privée conformément aux recommandations de la CNIL et ne demande aucune déclaration préalable.</p>
-		<div class="center-align padding-top padding-bottom"><iframe class="center-align" style="border: 0;" src="http://analytics.mpaw.xyz/piwik/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe></div>
-	</div>
-</section>
-<?php include('private/views/contact-form.php');?>
-<?php include('private/views/footer.php');?>
-<script src="js/main.js"></script>
+	<section class="ml cyan lighten-4">
+		<div class="container">
+			<h1 class="deep-purple-text text-darken-4 no-margin-top padding-top">Mentions Légales</h1>
+			<div class="underlign-r"></div>
+			<h2 class="deep-purple-text text-darken-4 h2-title">SIRET</h2>
+			<p>Sous CAPE Cosens SIRET 419 369 798 00048</p>
+			<p>2, rue de Rome</p>
+			<p>13001 Marseille</p>
+			<h2 class="deep-purple-text text-darken-4 h2-title">Hébergement :</h2>
+			<p>GANDI SAS, Société par Actions Simplifiée au capital de 300.000€ ayant son siège social au 63-65 boulevard Massena à Paris (75013) FRANCE, immatriculée sous le numéro 423 093 459 RCS PARIS N° TVA FR81423093459 Téléphone : +33.(0) 1 70.37.76.61 . </p>
+			<h2 class="h2-title deep-purple-text text-darken-4">Co-responsables de la publication :</h2>
+			<p>Lionel Lafont</p>
+			<p>Mylène Hiezely</p>
+			<h2 class="h2-title deep-purple-text text-darken-4">Gestion des données personnelles :</h2>
+			<p>Votre vie privée est très importante pour nous. Pour connaître le trafic sur ce site internet, Nous utilisons Matomo. Matomo est une solution d’analytics qui respecte votre vie privée conformément aux recommandations de la CNIL et ne demande aucune déclaration préalable.</p>
+			<div class="center-align padding-top padding-bottom"><iframe class="center-align" style="border: 0;" src="http://analytics.mpaw.xyz/piwik/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe></div>
+		</div>
+	</section>
+	<?php include('private/views/contact-form.php');?>
+	<?php include('private/views/footer.php');?>
+	<script src="js/main.min.js"></script>
 </body>
 </html>

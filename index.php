@@ -42,8 +42,6 @@
 <!-- Piwik -->
     <script>var _paq=_paq||[];_paq.push(["setCookieDomain","*.cooldev.xyz"]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="//analytics.mpaw.xyz/piwik/";_paq.push(['setTrackerUrl',u+'piwik.php']);_paq.push(['setSiteId','5']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=!0;g.defer=!0;g.src=u+'piwik.js';s.parentNode.insertBefore(g,s)})();</script>
 <!-- End Piwik Code -->
-
-
   </head>
   <body >
     <?php include('private/views/header.php');?>
@@ -57,11 +55,9 @@
     <?php include('private/views/footer.php');?>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" ></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> --> <!-- CDN ScrollMagic -->
-    <!-- <script src="js/ScrollMagic.min.js"></script> --> <!-- version locale minifiee d'origine ScrollMagic -->
-    <script src="js/scrollMagic.js"></script> <!-- version locale non minifiee d'origine ScrollMagic -->
-    <script src="js/scrollMagic-anim.js" ></script>
-    <script src="js/main.js"></script>
+    <script src="js/scrollMagic.js"></script>
+    <script src="js/scrollMagic-anim.min.js" ></script>
+    <script src="js/main.min.js"></script>
     </script>
   </body>
 </html>
