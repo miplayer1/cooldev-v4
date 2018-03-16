@@ -23,6 +23,7 @@ DirectoryIndex index.php
   ExpiresByType image/jpg "access plus 2592000 seconds"
   ExpiresByType image/png "access plus 2592000 seconds"
   ExpiresByType image/gif "access plus 2592000 seconds"
+  ExpiresByType image/svg "access plus 259200 seconds"
   ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
   ExpiresByType text/css "access plus 2592000 seconds"
   ExpiresByType text/javascript "access plus 2592000 seconds"
