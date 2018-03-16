@@ -6,24 +6,18 @@ var page = window.location.href;
 if (page === "http://localhost/cooldev-v4/works.php") {
   // // define movement of panels
     var wipeAnimation = new TimelineMax()
-        //   	.fromTo("section.panelWorks.one", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.two", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
-        //   .fromTo("section.panelWorks.two", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.three", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
-        //   .fromTo("section.panelWorks.three", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone})  // pause
-       .fromTo("section.panelWorks.four", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
-        //   .fromTo("section.panelWorks.four", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.five", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
-        //    .fromTo("section.panelWorks.five", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.six", 3, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}) // in from top
-        //  .fromTo("section.panelWorks.six", 1, {x: "0%"}, {x: "0%", ease: Linear.easeNone}) // pause
-       .fromTo("section.panelWorks.seven", 3, {x: "100%"}, {x: "0%", ease: Linear.easeNone}); // in from top
+        wipeAnimation.fromTo("section.panelWorks.two", 3, {x: "-100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10")  // in from left
+        wipeAnimation.fromTo("section.panelWorks.three", 3, {x: "100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10")  // in from right
+        wipeAnimation.fromTo("section.panelWorks.four", 3, {x: "-100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10") // in from top
+        wipeAnimation.fromTo("section.panelWorks.five", 3, {x: "100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10") // in from top
+        wipeAnimation.fromTo("section.panelWorks.six", 3, {x: "-100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10") // in from top
+        wipeAnimation.fromTo("section.panelWorks.seven", 3, {x: "100%", opacity: 0.5}, {x: "0%", opacity: 1, ease: Linear.easeNone}, "+=10"); // in from top
 
     // // create scene to pin and link animation
     new ScrollMagic.Scene({
         triggerElement: "#pinContainer",
         triggerHook: "onLeave",
-        duration: "300%"
+        duration: "1000%"
        })
         .setPin("#pinContainer")
         .setTween(wipeAnimation)
@@ -56,7 +50,7 @@ processItems.forEach(function(item) {
 // animation conversation
 convItems.forEach(function(item) {
     var tl = new TimelineMax();   
-    tl.fromTo(item, 0.5, {opacity: 0}, {opacity: 1, ease: Linear.easeNone});
+    tl.fromTo(item, 0.10, {opacity: 0}, {opacity: 1, ease: Linear.easeNone});
     
     new ScrollMagic.Scene({
     triggerElement: item,
