@@ -8,11 +8,7 @@
             <h1 class="center-align white-text">Développeur<span class="median-dot">&#183;</span>se<span class="median-dot">&#183;</span>s engagé<span class="median-dot">&#183;</span>e<span class="median-dot">&#183;</span>s</h1>
             <p class="white-text center-align">Pour un web accessible,<br>respectueux des gens<br>et de la planète</p>
           </div>
-			</div>	
-			
-
-<div class="icon-scroll" ></div>
-
-	
+        </div>	
+        <div class="icon-scroll" ></div>
      	</div>
     </header><!--HEADER-->

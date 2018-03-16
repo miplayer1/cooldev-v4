@@ -55,5 +55,5 @@
       <span class="">CC BY-NC-SA 4.0 - 2018 / </span> <a class="" href="http://www.cooldev.xyz" target="_blank">La Team Cooldev</a>
       <a class="right" href="mentions-legales.php" >Mentions légales</a>
       </div>
-  </div><!--COPYRIGHT-->
+    </div><!--COPYRIGHT-->
 </footer><!--FOOTER-->
