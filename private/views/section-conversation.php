@@ -6,7 +6,7 @@
     </div>
     <div class="clear"></div>
     <div class="conv from-them">
-      <p>Coucou, moi c'est Mylène :)<br />Ce que j'aime c'est le graphisme et l'intégration.</p>
+      <p>Moi c'est Mylène :)<br />J'aime mettre en valeur vos idées grâce au webdesign et aux visuels. Et les donuts aussi ;)</p>
     </div>
     <div class="clear"></div>
     <div class="conv from-me">

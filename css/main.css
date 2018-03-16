@@ -3,7 +3,7 @@
 	* @autors cooldev crew
 	* @media responsive
 	* @version 4.0
-	* @lastmodified March, 9 2018
+	* @lastmodified March, 16 2018
 	
 	-------------------------------------------------------------------*/
 	
@@ -13,6 +13,8 @@
 					1. COLORS
 					2. FONTS
 					3. HELPERS
+						3.1 Helpers material-icons
+						3.2 Helpers margin/padding
 					4. GENERAL
 						4.1.SCROLL Icon
 					5. TYPO generic
@@ -21,17 +23,21 @@
 					8. SECTIONS / PAGES
 					9. SECTION VALEURS
 					10. SECTION PROCESS
-					11. SECTION US
-					. CONTACT
-					. FOOTER
-					. MEDIA QUERIES
+					11. SECTION WORKS
+					12. SECTION CONVERSATION
+					13. SECTION US
+					14. CONTACT
+					15. FOOTER
+					16. PAGE WORKS
+					17. PAGE MENTIONS LEGALES
+					18. MEDIA QUERIES
 -------------------------------------------------------------------*/
 	
 	
 	
 /*
 
-	 ***********************  
+	***********************  
     
     ***   1. Colors     ***
     
@@ -64,7 +70,7 @@
 	***********************
 	*/
 
-/* Helpers material-icons*/
+/* 3.1 Helpers material-icons*/
 
 .material-icons.md-18 { font-size: 18px; }
 
@@ -75,6 +81,8 @@
 .material-icons.md-48 { font-size: 48px; }
 
 .material-icons.md-60 { font-size: 60px; }
+
+/* 3.2 Helpers margin/padding */ 
 
 .no-padding-top {
 	padding-top: 0!important;
@@ -198,7 +206,6 @@ html {
 h1{
   font-size: 1.3rem;
   font-family: 'Comfortaa', cursive;
-/**  font-weight: 900;**/
 }
 h2 {
 	font-weight: 900;
@@ -267,26 +274,17 @@ header {
 	width:150px;
 }
 
-/*.header-content h1 {
-  font-size: 1.3rem;
-  font-family: 'Comfortaa', cursive;
-}*/
 .header-content {
   margin: auto;
   margin-top: 15%;
   z-index: 2;
 }
-
-
 .social a {
 	padding: 5px;
 }
 .social img {
  max-width: 30px;
 } 
-
-
-
 
 /* 
 	***********************
@@ -369,24 +367,6 @@ padding-bottom: 50px;
 	justify-content: center;
 }
 
-.donuts {
-	height: 20%;
-	background-image: url(../assets/img/fond-donuts.svg);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: contain;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.donuts div {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
 .center-vert {
 	display: flex;
 	flex:auto;
@@ -401,12 +381,6 @@ padding-bottom: 50px;
 	
 	***********************
 	*/
-	/*#valeurs h2 {
-	border: 8px solid grey;	
-	padding-top: 50px;
-	padding-bottom: 50px;
-	
-	}*/
 
 /* 
 	***********************
@@ -418,9 +392,6 @@ padding-bottom: 50px;
 	#process p {
 		font-size: 1.2rem;	
 	}	
-	/*#process {
-		background-color: #bde1de;
-	}*/
 
 	#process ol {
 		list-style:none;
@@ -489,30 +460,17 @@ padding-bottom: 50px;
 	background-color: #bde1deff;
 }
 
-#section3.picto {
-	display: flex;
-	justify-content: center;
-}
 #works p {
 	font-size: 1.2rem;
 }
 #page-works {
 	background-color: #bde1de;
 }
-/* 
-	***********************
-	
-	**    12.SECTION CONVERSATION   **
-	
-	***********************
-	*/
-/*#section4 {
-	background-color: #bde1deff;
-}*/
+
 /* 
 	*********************************
 	
-	**    13.SECTION CONVERSATION  **
+	**    12.SECTION CONVERSATION  **
 	By https://codepen.io/samuelkraft
 	
 	*********************************
@@ -560,6 +518,7 @@ padding-bottom: 50px;
   height: 20px;
   border-right: 20px solid #0B93F6;
   border-bottom-left-radius: 16px 14px;
+  transform: translate(0, -2px);
   -webkit-transform: translate(0, -2px);
 }
 .from-me:after {
@@ -572,6 +531,7 @@ padding-bottom: 50px;
   height: 20px;
   background: #F3E5F5;
   border-bottom-left-radius: 10px;
+  transform: translate(-30px, -2px);
   -webkit-transform: translate(-30px, -2px);
 }
 
@@ -592,6 +552,7 @@ padding-bottom: 50px;
   height: 20px;
   border-left: 20px solid white;
   border-bottom-right-radius: 16px 14px;
+  transform: translate(0, -2px);
   -webkit-transform: translate(0, -2px);
 }
 .from-them:after {
@@ -604,6 +565,7 @@ padding-bottom: 50px;
   height: 20px;
   background: #F3E5F5;
   border-bottom-right-radius: 10px;
+  transform: translate(-30px, -2px);
   -webkit-transform: translate(-30px, -2px);
 }
 
@@ -627,7 +589,7 @@ padding-bottom: 50px;
 /* 
 	***********************
 	
-	**    13.CONTACT     **
+	**    14.CONTACT     **
 	
 	***********************
 	*/
@@ -636,7 +598,7 @@ padding-bottom: 50px;
 /* 
 	***********************
 	
-	**     14.FOOTER     **
+	**     15.FOOTER     **
 	
 	***********************
 	*/
@@ -656,28 +618,11 @@ footer p {
 	padding-top:9px;
 
 }
-/* .reseau-img {
-		margin: 0 auto;
-		background-repeat: no-repeat;
-		width: 100px;
-		height: 100px;
-		margin:0 auto;
-}
-#twitter {
-		background-image: url('../assets/img/sprite-reseaux.png');
-		background-position: 0 0;
 
-}
-
-#facebook {
-		background-image: url('../assets/img/sprite-reseaux.png');
-		background-position: -100px 0;
-
-} */
 /* 
 	***********************
 	
-	**    14.PAGE WORKS  **
+	**    16.PAGE WORKS  **
 	
 	***********************
 	*/
@@ -695,21 +640,6 @@ footer p {
 
 }
 
-/*.panelWorks.one.three.six {
-	background-color: #bde1de;
-
-}
-
-.panelWorks.two .four .seven  {
-	background-color: #ffbbdb;
-
-}*/
-/*.panelWorks.three {
-	background-color: #bde1de;
-}
-.panelWorks.four {
-	background-color: #FEE69D;
-}*/
 .panelWorks h3 {
 	
 	font-size: 2rem;
@@ -745,7 +675,7 @@ margin: 0 auto;
 /* 
 	***********************
 	
-	**1MENTION LEGALES **
+	**17. MENTION LEGALES **
 	
 	***********************
 	*/
@@ -757,7 +687,7 @@ margin: 0 auto;
 /* 
 	***********************
 	
-	**13.MEDIA QUERIES<3 **
+	**18. MEDIA QUERIES<3 **
 	
 	***********************
 	*/

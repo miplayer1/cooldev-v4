@@ -10,10 +10,10 @@
         </div>
         <div class="row">
             <div class="col s12 l4 offset-l4 center-align">
-                <a class="btn waves-effect waves-light cyan accent-3 deep-purple-text text-darken-4" href="/cooldev-v4/works.php" id="worksLink" >Nos réalisations
+                <a class="btn waves-effect waves-light cyan accent-3 deep-purple-text text-darken-4" href="works.php" id="worksLink" >Nos réalisations
                     <i class="material-icons right">send</i>
                 </a>
             </div>
         </div>
     </div>
-</section><!--SECTION 4-->
+</section><!--SECTION WORKS-->
