@@ -1,3 +1,3 @@
-<section id="section-us" class="purple lighten-5">
+<div id="section-us" class="purple lighten-5">
     <img src="assets/img/fond-us.svg" alt=""/>   
-</section><!--SECTION US-->
+</div><!--SECTION US-->

@@ -7,7 +7,7 @@
 			</div>
 				<div class="col s12 m2 offset-m5 center-align padding-bottom info-button" >
 						<span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
-						<span class="hide-on-small-only" id="phone-btn"><div id="phone-contact"><img src="assets/img/phone.png" alt=""></div><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
+						<span class="hide-on-small-only phone-btn" ><div class="phone-contact" ><img src="assets/img/phone.png" alt=""></div><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
 						<span><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
 				</div> 
 	
@@ -15,28 +15,28 @@
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
-	          <input id="name" name="nom" type="text" class="validate" required aria-required="true">
+	          <input id="name" name="nom" type="text" class="validate" required>
 	          <label for="name">Votre nom</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">email</i>
-	          <input id="email" name="email" type="email" class="validate" required aria-required="true">
+	          <input id="email" name="email" type="email" class="validate" required>
 	          <label for="email">Votre adresse mail</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">subject</i>
-	          <input id="subject" name="objet" type="text" class="validate" required aria-required="true">
+	          <input id="subject" name="objet" type="text" class="validate" required>
 	          <label for="subject">Sujet</label>
 	        </div>
 	      </div>
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">textsms</i>
-	          <textarea id="message" name="message" type="text" class="materialize-textarea" required aria-required="true"></textarea>
+	          <textarea id="message" name="message" class="materialize-textarea" required></textarea>
 	          <label for="message">Votre message</label>
 	        </div>
 	      </div>

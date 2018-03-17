@@ -9,7 +9,7 @@
 				</p>
 			</div>
 			<div class="col s8 offset-s2 m3 pull-m3">
-				<img class="responsive-img " src="assets/img/gifs/responsive-2.gif">	
+				<img class="responsive-img " src="assets/img/gifs/responsive-2.gif" alt="Nous travaillons sur l'accessibilité, l'optimisation et l'expérience utilisateur">	
 			</div><!--GIF-->
 		</div><!--usabilite-->
 		<div class="row padding-top padding-bottom">
@@ -19,7 +19,7 @@
 				<p>Nous sélectionnons pour votre projet les technologies les plus efficientes et les plus adaptées.<br />Le bénéfice à cela ? Des ressources énergétiques épargnées !</p>
 			</div>
 			<div class="col s8 offset-s2 m3 offset-m3">
-				<img class="responsive-img " src="assets/img/gifs/gif-plant-2.gif">	
+				<img class="responsive-img " src="assets/img/gifs/gif-plant-2.gif" alt="Nous sélectionnons pour votre projet les technologies les plus efficientes et les plus adaptées">	
 			</div><!--GIF-->
 		</div><!--frugalite-->
 		<div class="row padding-top padding-bottom">
@@ -32,7 +32,8 @@
 				</p>		
 			</div>
 			<div class="col s8 offset-s2 m3 pull-m3">
-				<img class="responsive-img" src="assets/img/gifs/inv.gif">	
+				<img class="responsive-img" src="assets/img/gifs/inv.gif" alt="Nous avons choisi de mettre en place une solution 
+				analytique respectueuse de la vie privée">	
 			</div><!--GIF-->
 		</div><!--VIE PRIVée-->
 		<div class="row padding-top padding-bottom">
@@ -45,7 +46,7 @@
 					</p>		
 			</div>
 			<div class="col s8 offset-s2 m3 offset-m3">
-				<img class="responsive-img circle" src="assets/img/gifs/cat-1.gif">	
+				<img class="responsive-img circle" src="assets/img/gifs/cat-1.gif" alt="Nous nous engageons pour un numérique inclusif">	
 			</div><!--GIF-->
 		</div><!--SOCIETAL-->
 		<div class="row">

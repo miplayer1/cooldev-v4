@@ -19,8 +19,8 @@
           <div class="underlign"></div>
           <div class="col s12 info-button" >
               <span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
-              <span class="hide-on-small-only" id="phone-btn">
-                <span id="phone-contact"   >
+              <span class="hide-on-small-only phone-btn">
+                <span class="phone-contact">
                   <img src="assets/img/phone.png" alt="">
                 </span>
                 <span  class="btn-floating " title="Téléphonez-nous">

@@ -58,6 +58,5 @@
     <script src="js/scrollMagic.js"></script>
     <script src="js/scrollMagic-anim.min.js" ></script>
     <script src="js/main.min.js"></script>
-    </script>
   </body>
 </html>
