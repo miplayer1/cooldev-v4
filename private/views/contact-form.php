@@ -7,7 +7,7 @@
 			</div>
 				<div class="col s12 m2 offset-m5 center-align padding-bottom info-button" >
 						<span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
-						<span class="hide-on-small-only phone-btn" ><div class="phone-contact" ><img src="assets/img/phone.png" alt=""></div><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
+						<span class="hide-on-small-only phone-btn" ><span class="phone-contact" ><img src="assets/img/phone.png" alt=""></span><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
 						<span><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
 				</div> 
 	
