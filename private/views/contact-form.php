@@ -11,7 +11,7 @@
 								<i class="material-icons">phone</i>
 							</a>
 						</span>
-						<span class="hide-on-small-only phone-btn col m6" >
+						<span class="hide-on-small-only phone-btn col s3 offset-s3 m6" >
 							<!-- <span class="phone-contact" >
 								<img src="assets/img/phone.png" alt="">
 							</span> -->
@@ -22,7 +22,7 @@
 								</a>
 							</span>
 						</span>
-						<span class="col m6"><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
+						<span class="col s3 offset-s3 m6"><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
 				</div> 
 	
 		    <form class="col s12 padding-top " action="#contact" method="POST">	
