@@ -410,7 +410,7 @@ padding-bottom: 50px;
 		font-size: 1.2rem;	
 	}	
 
-	#process ol {
+	#process div[class= "row"] {
 		list-style:none;
 		padding-left: 0;
 	}
