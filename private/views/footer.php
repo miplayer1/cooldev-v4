@@ -14,22 +14,40 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-      <div class="col s12 m4 "> 
+      <div class="col s12 m4 " >
         <h2 class="">Contact</h2>
           <div class="underlign"></div>
           <div class="col s12 info-button" >
+
               <span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
               <span class="hide-on-small-only phone-btn">
-                <span class="phone-contact">
+                <!-- <span class="phone-contact">
                   <img src="assets/img/phone.png" alt="">
+                </span> -->
+                <span  class="col m3 center hover-phone" title="Téléphonez-nous">
+                  <span class="tooltip" style=""></span> 
+
+                  <a href="" class="btn-floating">
+                    <i class="material-icons center ">phone</i>
+                  </a>
                 </span>
-                <span  class="btn-floating " title="Téléphonez-nous">
-                  <i class="material-icons center ">phone</i>
               </span>
+              <span class="col m3">
+                <a data-link="emailLink" class="btn-floating"  title="Envoyez-nous un mail">
+                  <i class="material-icons">email</i>
+                </a>
+              </span>
+              <span class="social-img col m3">
+                <a href= "https://www.facebook.com/cooldevcrew/" class="btn-floating center-align" target="_blank" title="Suivez-nous sur Facebook">
+                  <img src="assets/img/logo-fb.png" alt="facebook">
+                </a>
+              </span>
+            <span class="social-img col m3">
+              <a href="https://twitter.com/cooldev_crew" class="btn-floating  center-align"  target="_blank"  title="Suivez-nous sur Twitter">
+                <img src="assets/img/logo-twitter.png" alt="twitter">
+              </a>
             </span>
-              <span ><a data-link="emailLink" class="btn-floating"  title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
-              <span class="social-img"><a href= "https://www.facebook.com/cooldevcrew/" class="btn-floating center-align" target="_blank" title="Suivez-nous sur Facebook"><img src="assets/img/logo-fb.png" alt="facebook"></a></span>
-            <span class="social-img"><a href="https://twitter.com/cooldev_crew" class="btn-floating  center-align"  target="_blank"  title="Suivez-nous sur Twitter"><img src="assets/img/logo-twitter.png" alt="twitter"></a></span>
+
           </div>   
         </div>
         <div class="col s12 m4">

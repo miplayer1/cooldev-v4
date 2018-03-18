@@ -330,14 +330,36 @@ header {
 	right: 100%;
 }
 
-.phone-btn:hover #phone {
+/* .phone-btn:hover #phone {
 	opacity: 1;	
-}
+} */
 
-.phone-btn:hover .phone-contact {
+/* .phone-btn:hover .phone-contact {
 	opacity: 1;
+} */
+
+.info-button {
+	position: relative;
 }
 
+.hover-phone {
+	position: relative;
+}
+
+.hover-phone:hover .tooltip {
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+
+.tooltip {
+	position: absolute;
+	top: 0;
+	left: -190px;
+	height: 58px;
+	width: 190px;
+	background-image: url("../assets/img/phone.png");
+	opacity: 0;
+}
 
 		
 		

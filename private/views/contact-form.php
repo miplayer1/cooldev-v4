@@ -5,13 +5,27 @@
 	      <h2 class="dark-green center-align deep-purple-text text-darken-4 padding-top h2-title">Contact</h2>
 				<p class="flow-text dark-green center-align deep-purple-text text-darken-4">Pour avoir des infos complémentaires, obtenir un devis, nous faire un coucou...</p>	      
 			</div>
-				<div class="col s12 m2 offset-m5 center-align padding-bottom info-button" >
-						<span class="hide-on-med-and-up"><a data-link="phoneLink" class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></a></span>
-						<span class="hide-on-small-only phone-btn" ><span class="phone-contact" ><img src="assets/img/phone.png" alt=""></span><span class="btn-floating yellow darken-1"  title="Téléphonez-nous"><i class="material-icons">phone</i></span></span>
-						<span><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
+				<div class="col s12 m2 offset-m5 center-align info-button" >
+						<span class="hide-on-med-and-up">
+							<a data-link="phoneLink" class="btn-floating yellow darken-1"  title="Téléphonez-nous">
+								<i class="material-icons">phone</i>
+							</a>
+						</span>
+						<span class="hide-on-small-only phone-btn col m6" >
+							<!-- <span class="phone-contact" >
+								<img src="assets/img/phone.png" alt="">
+							</span> -->
+							<span class="hover-phone"  title="Téléphonez-nous">
+								<span class="tooltip"></span> 
+								<a class="btn-floating yellow darken-1" href="">
+									<i class="material-icons">phone</i>
+								</a>
+							</span>
+						</span>
+						<span class="col m6"><a data-link="emailLink" class="btn-floating  pink accent-2" title="Envoyez-nous un mail"><i class="material-icons">email</i></a></span>
 				</div> 
 	
-		    <form class="col s12" action="#contact" method="POST">	
+		    <form class="col s12 padding-top " action="#contact" method="POST">	
 	      <div class="row">
 	        <div class="input-field col s12">
 	          <i class="material-icons prefix">account_circle</i>
