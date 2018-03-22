@@ -47,7 +47,7 @@ pins.forEach(function(pin) {
     new ScrollMagic.Scene({
         triggerElement: pin,
         triggerHook: 0,
-        // duration: "50%",
+        duration: "50%",
        })
         .setPin(pin)
         .addIndicators()
