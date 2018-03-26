@@ -47,8 +47,9 @@
   <?php include('private/views/contact-form.php');?>
   <?php include('private/views/footer.php');?>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" ></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js" ></script>
   <script src="js/scrollMagic.js"></script>
-  <script src="js/scrollMagic-anim.min.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/scrollMagic-anim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="js/main.js"></script>
 </body>

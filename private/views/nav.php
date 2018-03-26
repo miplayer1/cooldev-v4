@@ -1,4 +1,4 @@
-			<div id="menuButton" class="fixed-action-btn click-to-toggle">
+			<div id="menuButton" class="fixed-action-btn ">
 	        <a class="btn-floating  cyan accent-3">
 	          <i class="material-icons">menu</i>
 	        </a>

@@ -1,5 +1,5 @@
-<div id="pinContainer" class="purple lighten-5">
-	<section class="panelWorks one cyan lighten-4">
+<div id="" class="carousel carousel-slider center purple lighten-5">
+	<div class="carousel-item one cyan lighten-4">
 		<div class="container ">
 			<div class="row padding-top padding-bottom ">
 				<div class="col s8 offset-s2 m6  ">
@@ -14,9 +14,9 @@
 			</div>
 			<div class="icon-scroll icon-scroll-b"></div>	
 		</div>
-	</section><!--medilab-->
+	</div><!--medilab-->
 
-	<section class="panelWorks two pink lighten-4">
+	<div class="carousel-item   two pink lighten-4">
 		<div class="container ">		
 			<div class="row padding-top padding-bottom">	
 				<div class="col s12 m4 ">
@@ -31,9 +31,9 @@
 				</div>	
 			</div>
 		</div>
-	</section><!--fab-dd-->
+	</div><!--fab-dd-->
 
-	<section class="panelWorks three amber lighten-4 ">
+	<div class="carousel-item   three amber lighten-4 ">
 		<div class="container">
 			<div class="row padding-top padding-bottom">
 				<div class="col col s8 offset-s2 m6 ">
@@ -47,9 +47,9 @@
 				</div>	
 			</div>
 		</div>
-	</section><!--cookies-->
+	</div><!--cookies-->
 
-	<section class="panelWorks four cyan lighten-4">
+	<div class="  carousel-item four cyan lighten-4">
 		<div class="container">
 			<div class="row padding-top padding-bottom">			
 				<div class="col s12 m4 ">
@@ -63,9 +63,9 @@
 				</div>	
 			</div>
 		</div>
-	</section><!--LAB4Makers-->
+	</div><!--LAB4Makers-->
 
-	<section class="panelWorks five pink lighten-4">
+	<div class=" carousel-item five pink lighten-4">
 		<div class="container">
 			<div class="row padding-top padding-bottom">	
 				<div class="col s8 offset-s2 m6">
@@ -81,9 +81,9 @@
 				</div>
 			</div>
 		</div>
-	</section><!--take-->
+	</div><!--take-->
 
-	<section class="panelWorks six amber lighten-4">
+	<div class="carousel-item six amber lighten-4">
 		<div class="container">
 			<div class="row padding-top padding-bottom">		
 				<div class="col s12  m4 offset-m1 ">
@@ -97,9 +97,9 @@
 				</div>	
 			</div>
 		</div>
-	</section><!--MPAW-->
+	</div><!--MPAW-->
 
-	<section class="panelWorks seven cyan lighten-4">	
+	<div class="carousel-item seven cyan lighten-4">	
 		<div class="container">
 			<div class="row padding-top padding-bottom">	
 				<div class="col s8 offset-s2 m6">
@@ -115,7 +115,7 @@
 				</div>
 			</div>
 		</div>
-	</section><!--Timoun-->
+	</div><!--Timoun-->
 </div>
 <div class="cyan lighten-4">
 		<h3 class="deep-purple-text text-darken-4 center-align padding-top no-margin-bottom padding-bottom no-margin-top">Allez, viens ! On a des donuts...</h3>
